@@ -1,0 +1,6 @@
+@UltimateCoreAPITemaplate_HostAddress = http://localhost:5090
+
+GET {{UltimateCoreAPITemaplate_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
