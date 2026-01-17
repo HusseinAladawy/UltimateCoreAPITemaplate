@@ -13,7 +13,10 @@ namespace UltimateCoreAPITemaplate.Controllers
         public ActionResult Get()
         {
             HttpContext context = HttpContext;
-           return Ok(context.Features.);
+            int[]  x = { 1, 2, 3, 4, 5 };
+            x[10] = 100; // This will cause an unhandled exception
+
+            return Ok(context.User);
         }
 
        
